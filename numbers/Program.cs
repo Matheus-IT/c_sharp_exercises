@@ -1,9 +1,19 @@
-﻿int n1, n2, n3, m;
+﻿short min1 = short.MinValue;
+short max1 = short.MaxValue;
+Console.WriteLine($"The range is {min1} to {max1}");
 
-n1 = 10;
-n2 = 8;
-n3 = 9;
+int min2 = int.MinValue;
+int max2 = int.MaxValue;
+Console.WriteLine($"The range is {min2} to {max2}");
 
-m = (n1 + n2 + n3) / 3;
+float min3 = float.MinValue;
+float max3 = float.MaxValue;
+Console.WriteLine($"The range is {min3} to {max3}");
 
-Console.WriteLine("The mean is: " + m);
+double min4 = double.MinValue;
+double max4 = double.MaxValue;
+Console.WriteLine($"The range is {min4} to {max4}");
+
+decimal min5 = decimal.MinValue;
+decimal max5 = decimal.MaxValue;
+Console.WriteLine($"The range is {min5} to {max5}");
