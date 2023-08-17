@@ -1,2 +1,4 @@
-﻿for (int i = 0; i < 10; i++)
-    Console.WriteLine("Hello, World!" + i);
+﻿var names = new List<string>{"matheus", "carol", "francisca", "edilson"};
+
+foreach (string name in names)
+    Console.WriteLine($"Hello, {name}!");
