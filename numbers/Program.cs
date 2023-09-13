@@ -3,8 +3,8 @@
 string msg;
 
 if (age >= 18)
-    msg = "Can drive";
+    msg = "Can drive!";
 else
-    msg = "Cannot drive";
+    msg = "Cannot drive!";
 
 Console.WriteLine(msg);
