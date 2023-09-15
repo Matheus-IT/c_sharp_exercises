@@ -6,8 +6,12 @@ foreach (string name in names)
 
 Console.WriteLine($"Found carol at {names.IndexOf("carol")}");
 
-int i = 0;
+int c = 0;
 do {
     Console.WriteLine("hello");
-    i++;
-} while (i < 10);
+    c++;
+} while (c < 10);
+
+for (int i = 0; i < names.Count; i++) {
+    Console.WriteLine(names[i]);
+}
