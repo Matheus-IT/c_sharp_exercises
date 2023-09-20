@@ -6,6 +6,8 @@ foreach (string name in names)
 
 Console.WriteLine($"Found carol at {names.IndexOf("carol")}");
 
+Console.WriteLine($"Last index {names[names.Count - 1]}");
+
 int c = 0;
 do {
     Console.WriteLine("hello");
